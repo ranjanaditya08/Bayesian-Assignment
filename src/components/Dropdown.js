@@ -33,7 +33,7 @@ const Dropdwon = ({ props, value, onChange }) => {
         {openDrawer && (
           <div className="absolute z-10 top-[66px] left-0 bg-[#111111] p-3 shadow-2xl w-[300px] text-slate-400 cursor-pointer">
             {options.map((item, index) => (
-              <div key={index} onClick={() => handleChange(item)}>
+              <div key={index} onClick={() => handleChange(item)} className="hover:bg-[#1c1c1c] px-1">
                 {item}
               </div>
             ))}

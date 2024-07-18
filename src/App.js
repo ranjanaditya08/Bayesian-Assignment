@@ -1,9 +1,9 @@
-import Dropdwon from "./Dropdwon";
-import Button from "./Button";
+import Dropdwon from "./components/Dropdown";
+import Button from "./components/Button";
 import { ORIGIN, DESTINATION, CABIN_SELECTION, headers } from "./constants";
 import { useState } from "react";
 import { getRequestPayload } from "./utils";
-import Card from "./Card";
+import Card from "./components/Card";
 
 const App = () => {
   const [origin, setOrigin] = useState("");

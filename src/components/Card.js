@@ -1,6 +1,6 @@
 import React from "react";
 import { GiCommercialAirplane } from "react-icons/gi";
-import { getFormattedDate } from "./utils";
+import { getFormattedDate } from "../utils";
 
 const Card = ({ item, searchPayload }) => {
   const {
