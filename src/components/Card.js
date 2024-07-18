@@ -17,7 +17,7 @@ const Card = ({ item, searchPayload }) => {
     searchPayload;
 
   return (
-    <div className="bg-[#356841] text-white rounded-lg py-2 w-48 h-80 mt-10 ml-4">
+    <div className="bg-[#356841] text-white rounded-lg py-2 w-48 h-80 mt-10">
       <div className="">
         <div className="flex justify-center mb-2">
           <GiCommercialAirplane />

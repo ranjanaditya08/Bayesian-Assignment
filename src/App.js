@@ -47,7 +47,7 @@ const App = () => {
 
   console.log(result);
   return (
-    <div className="bg-[#283a22] h-screen">
+    <div className="h-screen">
       <main className="w-full flex  flex-col justify-center items-center">
         <h3 className="text-slate-400 font-semibold tracking-wider mb-4">
           Choose Origin & Destination Airports:
@@ -81,7 +81,7 @@ const App = () => {
           </div>
         )}
         {!isLoading && result && (
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center gap-4">
             {result.map((item) => (
               <Card item={item} searchPayload={searchPayload} />
             ))}
